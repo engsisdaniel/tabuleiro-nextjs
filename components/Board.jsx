@@ -27,7 +27,7 @@ function createRow(x, size) {
 }
 
 const fillSquareMatrix = (size) => {
-    return Array(size).fill().map((u, y) => {
-        return createRow(y, size);
+    return Array(size).fill().map((u, x) => {
+        return createRow(x, size);
     });
 };
